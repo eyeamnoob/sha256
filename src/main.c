@@ -385,8 +385,8 @@ int main(int argc, char const *argv[])
 	}
 	else
 	{
-		printf("usage:\n%s <file_name>\t read from a file\n%s\t read from stdin\n", argv[0]), argv[0];
-		exit(EXIT_SUCCESS);
+		printf("usage:\n%s <file_name>\t read from a file\n%s\t read from stdin\n", argv[0], argv[0]);
+		exit(EXIT_FAILURE);
 	}
 
 #if __DEBUG__ == 1
